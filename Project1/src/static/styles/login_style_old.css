@@ -1,0 +1,81 @@
+/* Background */
+body {
+    background: url(https://media.istockphoto.com/photos/blur-abstract-background-of-corridor-in-clean-hospital-blurred-view-picture-id1150170445?k=6&m=1150170445&s=612x612&w=0&h=z6Wl_kQ4Ju1mAbhcDRH8LqBtWPZHgmyMhJPYdculr14=) 0% fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #39632a;
+}
+
+/* Title */
+header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Login box */
+.login_box {
+    position: relative;
+    padding: 10px 20px 80px 20px;
+    width: 100%;
+    max-width: 320px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px 1px #000;
+}
+
+/* Login box title */
+#login_title {
+    height: 100%;
+    margin: 0 0 30px 0;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.2em;
+    color: #39632a;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
+
+/* Login input */
+#email {
+    display: block;
+    position: absolute;
+    margin-top: -47px;
+    left: 0;
+    font-size: 1em;
+}
+#password {
+    display: block;
+    position: absolute;
+    left: 0;
+    font-size: 1em;
+}
+
+/* Login box submit button */
+button {
+    display: block;
+    position: absolute;
+    max-height: 60px;
+    bottom: -3em;
+    left: -1px;
+    width: 100.5%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    background: #39632a;
+    color: #ffffff;
+}
+

@@ -1,0 +1,46 @@
+/* Background */
+body {
+    /* Background */
+    background: url(https://media.istockphoto.com/photos/blur-abstract-background-of-corridor-in-clean-hospital-blurred-view-picture-id1150170445?k=6&m=1150170445&s=612x612&w=0&h=z6Wl_kQ4Ju1mAbhcDRH8LqBtWPZHgmyMhJPYdculr14=) no-repeat center center fixed;
+    background-size: cover;
+
+    /* All content*/
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    color: #39632a;
+ }
+
+ /* Workspace */
+.workspace{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #d3d3d385;
+    border: 4px #575757;
+    border-radius: 3px;
+    width: 75%;
+    height: 50%;
+    padding: 1em;
+}
+#workplace_title{
+    padding: 0;
+}
+ /* Stats table */
+table{
+margin: 0 auto;
+border: 2px #575757;
+border-collapse: collapse;
+}
+td{
+    border: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+p[id]{
+    font-size: larger;
+    color: rgb(32, 32, 32);
+}
+
+/* Dashboard link */
+a {
+    padding-left: 8em;
+}

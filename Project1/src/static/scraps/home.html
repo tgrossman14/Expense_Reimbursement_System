@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>This is home</title>
+    </head>
+    <body>
+        <!-- Must indicate where form data is being sent (what resource is being accessed by submitting the form?) -->
+        <!-- method= what verb. action= what resource. -->
+        <!-- Never use GET for sending info -->
+        <form method="POST" action="http://localhost:5000/employees/login">
+            <!-- Must use "name" attribute when passing form data back to the server. Data is retrieved via an em's "name" attribute -->
+            <input type="text" placeholder="Username" name="username"/>
+            <input type="password" placeholder="Password" name="password"/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

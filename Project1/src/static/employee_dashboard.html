@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee view</title>
+        <link rel="stylesheet" href="styles/employee_dash.css">
+    </head>
+    <body>
+        <div class="workspace">
+            <h1>My Reimbursement Viewer</h1>
+            <div style="overflow: auto;">
+                <table class="spreadsheet">
+                    <tbody id="reimbursement_sheet">
+                        <tr id="table_header">
+                            <th>Reimbursement ID</th>
+                            <th>Reimbursement Approval</th>
+                            <th>Reimbursement Amount</th>
+                            <th>Reimbursement Reason</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="separator"></div>
+        <div class="new_reimbursement">
+                <form method="POST" action="http://localhost:5000/employee_dashboard/reimbursement/new">
+                    <!-- Input amount -->
+                    <input id="reimbursement_amount" placeholder="$0.00" type="number" name="reimbursement_amount" step="0.01" min="0.01">
+                    <!-- Input reason -->
+                    <input id="reimbursement_reason" placeholder="Your reimbursement reason" type="text" name="reimbursement_reason">
+                    <button type="submit">Submit Reimbursement</button>
+                </form>
+        </div>
+        <script src="scripts\employee_scripts\fetch_own_reimbursements.js"></script>
+    </body>
+</html>

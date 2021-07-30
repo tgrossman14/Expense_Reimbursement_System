@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manager view</title> 
+        <link rel="stylesheet" href="styles/manager_dash_style.css">
+    </head>
+    <body>
+        <div class="workspace">
+            <h1 id="workspace_title">Reimbursement Viewer</h1>
+            <div style="overflow: auto;">
+                <table class="spreadsheet">
+                    <tbody id="reimbursement_sheet">
+                        <tr id="table_header">
+                            <th>Reimbursement ID</th>
+                            <th>Reimbursement Approval</th>
+                            <th>Reimbursement Amount</th>
+                            <th>Reimbursement Reason</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <a id='stats_page' href="http://localhost:5000/reimbursement_statistics">View Statistics</a>
+        <div id="separator"></div>
+        <form method="post" action="http://localhost:5000/manager_dashboard/reimbursement/approval">
+            <table class="spreadsheet">
+                <tbody id="reimbursement_zoomed"></tbody>
+                <tr>
+                    <th id="selected_amount">Requested Amount</th>
+                </tr>
+                <tr>
+                    <th id='selected_reason'>Reason</th>
+                </tr>
+            </table>
+            <div id='buttons'>
+            <!-- Approve -->
+                <button type="button" id="approve_btn" disabled>Approve</button>
+                <!-- Deny -->
+                <button type="button" id="deny_btn" disabled>Deny</button>
+                <!-- Confirm All -->
+                <button type="button" id="confirm_btn" disabled>Confirm All Changes</form>
+            </div>
+        </div>
+        <script src="scripts\manager_scripts\manager_dashboard.js"></script>
+    </body>
+</html>

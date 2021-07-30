@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <!--metadata-->
+    <head>
+        <title>MASH 4011 Login</title>
+        <link rel="stylesheet" href="styles/login_style.css">
+    </head>
+    <!--content-->
+    <body>
+        <header>
+            <h1>Mobile Army Surgical Hospital 4011 Employee Portal</h1>
+        </header>
+        <div class="login_box">
+            <!-- Title for login box -->
+            <p id="login_title">Enter Credentials</p>
+            <form method="POST" action="http://localhost:5000/login">
+                <section class="input">
+                    <!-- Input email -->
+                    <input id="email" placeholder="email@mash.gov" type="email" name="email">
+                    <!-- Input password -->
+                    <input id="password" placeholder="Password" type="password" maxlength="20" name="password">
+                </section>
+                <!-- Submit button -->
+                <button>
+                    <span>Sign in</span>
+                </button>
+            </form>
+        </div>
+        <footer>
+            <h6>&copy;Uijeongbu, Korea. 1950</h6>
+        </footer>
+    </body>
+</html>

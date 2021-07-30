@@ -1,0 +1,61 @@
+/* Background */
+body {
+    background: url(https://media.istockphoto.com/photos/blur-abstract-background-of-corridor-in-clean-hospital-blurred-view-picture-id1150170445?k=6&m=1150170445&s=612x612&w=0&h=z6Wl_kQ4Ju1mAbhcDRH8LqBtWPZHgmyMhJPYdculr14=) no-repeat center center fixed;
+    background-size: cover;
+ 
+    /* All content*/
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+     color: #39632a;
+}
+
+/* Header */
+header{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+/* Login Box */
+.login_box{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #39632a;
+    border: 4px #575757;
+    border-radius: 3px;
+    width: 30%;
+    height: 50%;
+}
+/* Box Title */
+p{
+    padding-top: 1em;
+    color: white;
+    cursor: default;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: border-box;
+    height: 4em;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding: .5em 0 0 .5em;
+    outline: none;
+    font-size: 14pt;
+}
+/* Login button */
+button{
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: #39632a;
+    color: white;
+    cursor: pointer;
+    font-size: 16pt;
+}
+/* Footer */
+footer{
+    position: fixed;
+    bottom: 0;
+}

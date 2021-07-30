@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reimbursement Statistics</title>
+        <link rel="stylesheet" href="styles/reimbursement_statistics_style.css">
+    </head>
+    <body>
+        <div class="workspace">
+            <h1>Reimbursement Statistics</h1>
+            <table>
+            <tr>
+                <td id="overall_avg_amount">
+                    <h3>Overall Reimbursement Average Amount</h3>
+                    <p id="o_avg_amount_number"></p>
+                </td>
+                <td id="approval_rate">
+                    <h3>Reimbursement Approval Rate</h3>
+                    <p id="approval_rate_number"></p>
+                </td>
+            </tr>
+            <tr>
+                <td id="highest_amount">
+                    <h3>Highest Reimbursement Amount</h3>
+                    <p id="highest_amount_number"></p>
+                </td>
+                <td id="approved_avg_amount">
+                    <h3>Approved Reimbursement Average Amount</h3>
+                    <p id="a_avg_amount_number"></p>
+                </td>
+            </tr>
+            </table>
+        </div>
+        <a id='manager_dash' href="http://localhost:5000/manager_dashboard">Manager Dashboard</a>
+        <script src="scripts\manager_scripts\reimbursement_statistics.js"></script>
+    </body>
+</html>

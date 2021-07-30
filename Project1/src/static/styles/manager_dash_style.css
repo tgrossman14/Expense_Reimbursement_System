@@ -1,0 +1,99 @@
+body {
+    /* Background */
+    background: url(https://media.istockphoto.com/photos/blur-abstract-background-of-corridor-in-clean-hospital-blurred-view-picture-id1150170445?k=6&m=1150170445&s=612x612&w=0&h=z6Wl_kQ4Ju1mAbhcDRH8LqBtWPZHgmyMhJPYdculr14=) no-repeat center center fixed;
+    background-size: cover;
+
+    /* All content*/
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    color: #39632a;
+ }
+
+ /* Workspace */
+.workspace{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #d3d3d385;
+    border: 4px #575757;
+    border-radius: 3px;
+    width: 75%;
+    height: 50%;
+    padding: 1em;
+ }
+#workplace_title{
+    padding: 0;
+}
+/* Reimbursement table */
+table{
+    margin: 0 auto;
+    border: 2px #575757;
+    border-collapse: collapse;
+}
+#table_header{
+    background-color: #39632a;
+    color: white;
+    text-align: center;
+ }
+#table_header > th{
+    padding: 0 1em 0.5em;
+ }
+td{
+    border: 1px #575757;
+    text-align: center;
+    padding: .25em 0;
+}
+.reimbursement_row{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(32, 32, 32);
+}
+.reimbursement_row:nth-child(odd){
+    background-color: rgb(194, 194, 194);
+}
+.reimbursement_row:hover{
+    background-color: rgb(138, 179, 147);
+}
+
+#selected {
+    background-color: #4fa05c;
+    color: white;
+}
+
+/* Stats link */
+a {
+    padding-left: 8em;
+}
+
+/* Separator */
+#separator{
+    display: block;
+    padding-bottom: 1em;
+}
+
+/* Approval form */
+form {
+    margin: auto;
+    align-self: center;
+    background-color: #d3d3d385;
+    border-color: #575757;
+    border-radius: 6px;
+    align-content: center;
+    width: 75%;
+    height: 20%;
+}
+
+#buttons {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+#approve_btn {
+    color: white;
+    text-shadow: #2f49248c;
+    background-color: #66a04f;
+}
+#deny_btn {
+    color: white;
+    text-shadow: #5027278c;
+    background-color: #a04f4f;
+}
